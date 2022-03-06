@@ -208,9 +208,6 @@ a:hover {
    margin-bottom: 50px;
 }
 
-.contentlogo__button {
-}
-
 .contentlogo__button-a {
    display: inline-block;
    vertical-align: top;
@@ -224,16 +221,12 @@ a:hover {
 .main__sliderul {
    display: flex;
 }
-.slider {
-}
+
 .num {
    font-size: 100px;
 }
 
 /*Slider*/
-
-.slider__list {
-}
 
 .slider__list-ul {
    display: flex;
@@ -343,6 +336,7 @@ a:hover {
 
 .numbers {
    background-color: #95e1d3;
+   margin-bottom: 110px;
 }
 
 .number__list {
@@ -367,4 +361,143 @@ a:hover {
 .number-span {
    font-size: 72px;
    font-weight: 700;
+}
+
+/*info*/
+
+.info {
+   max-width: 1130px;
+   margin: 0 auto;
+   color: #000;
+   text-align: center;
+   position: relative;
+}
+
+.suptitle {
+   font-family: "Kaushan Script", cursive;
+   font-size: 24px;
+   padding-bottom: 23px;
+}
+
+.info__title::after {
+   content: "";
+   display: block;
+   height: 3px;
+   width: 60px;
+   background-color: #f38181;
+
+   margin: 40px auto;
+}
+
+.title {
+   font-size: 30px;
+   font-weight: 800;
+}
+
+.info__grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 50% 50%;
+   column-gap: 60px;
+   text-align: left;
+   row-gap: 100px;
+   justify-items: center;
+   align-items: center;
+   margin-bottom: 180px;
+}
+
+.grid__block-title {
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 10px;
+}
+
+.grid__block-text {
+   font-size: 11px;
+   color: #999999;
+}
+
+.info__grid-1 {
+   display: flex;
+}
+
+.grid__text {
+   padding-left: 25px;
+}
+
+.grid__block-title {
+   padding-bottom: 15px;
+}
+
+.info__suptitle::before {
+   position: absolute;
+   content: "";
+   display: block;
+   width: 1130px;
+   height: 1px;
+   background-color: #e5e5e5;
+   margin: 0 auto;
+   margin-top: 285px;
+}
+
+/*adaptive*/
+
+.adaptive {
+   text-align: center;
+   color: #000;
+}
+
+.adaptive__background {
+   background-image: url(../images/Background2.jpg);
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 850px;
+}
+
+.adaptive__container {
+   max-width: 560px;
+   margin: 0 auto;
+}
+
+.apaptive__suptitle {
+   padding-top: 109px;
+}
+
+.suptitle {
+   font-family: "Kaushan Script", cursive;
+   font-size: 24px;
+   padding-bottom: 23px;
+}
+
+.adaptive__title::after {
+   content: "";
+   display: block;
+   height: 3px;
+   width: 60px;
+   background-color: #f38181;
+
+   margin: 40px auto 1px;
+}
+
+.title {
+   font-size: 30px;
+   font-weight: 800;
+}
+
+.adaptive__mobile1 {
+   position: relative;
+}
+.adaptive__mobile1-img {
+   overflow: hidden;
+}
+
+.adaptive__mobilecontainer2-img {
+   position: absolute;
+   right: -130px;
+   bottom: -100px;
+}
+
+.adaptive__mobile2-img {
 }
