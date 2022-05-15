@@ -1,2 +1,5 @@
-Мой первый макет
-<a href="https://diniso4ka.github.io/MoGo/">text</a>
+<a href="https://diniso4ka.github.io/MoGo/">TEST</a>
+
+Мой первый макет. HTML CSS
+
+
